@@ -87,6 +87,7 @@ nav .toggle-collapse .toggle-icons{
     display: flex;
     justify-content: flex-end;
     padding:1.4rem 2rem;
+    padding-top: 30px;
 }
 nav .toggle-collapse .toggle-icons{
     font-size:28px;
@@ -94,18 +95,7 @@ nav .toggle-collapse .toggle-icons{
 .collapse{
     height: 30rem;
 }
-@media only screen and (max-width:800px){
-    nav .nav-items{
-        flex-direction: column !important;
-    }
-    nav{
-        flex-direction: column !important;
-        display: block !important;
-    }
-    nav .toggle-collapse{
-        display: initial;
-    }
-}
+
 
 .bg-img {
     background-image: url(/art-display/main.jpg);
@@ -114,7 +104,6 @@ nav .toggle-collapse .toggle-icons{
     background-repeat: no-repeat;
     height: 80vh;
     width: 100%;
-    margin-top: 5px;
     position:absolute;
     
 
@@ -131,15 +120,74 @@ nav .toggle-collapse .toggle-icons{
     
 }
 
-.scroll img{
-    width: 25px;
-    top:80
+#about{
+    margin-top: 800px;
+    background-image: url(/art-display/double-bubble-outline.png);
+   
+}
+.about-img img{
+    width: 40%;
+    float: right;
+    margin-right: 10px;
+    padding-top: 35px;
+}
+.abt-container{
+    display: flex;
+    display: inline;
+    justify-content: space-between;
     
+}
+.abt-text{
+padding: 20px;
+}
+.abt-text h1{
+    font-family:inherit;
+    font-weight: bold;
+    font-size: 50px;
+}
+.abt-text p{
+    font-family: 'Roboto Mono';
+    font-size: 22px;
+}
+
+
+
+
+
+
+@media only screen and (max-width:800px){
+
+    .nav-brand h1{
+        font-family: inherit;
+        font-weight: bold;
+        padding-top: 35px;
+        padding-left: 5px;
     }
-    .scroll{
-        position: relative;
-        align-items: center;
-         margin-top: 0px;
-         padding: 0px;
-        
+    nav .nav-items{
+        flex-direction: column !important;
     }
+    nav{
+        flex-direction: column !important;
+        display: block !important;
+    }
+    nav .toggle-collapse{
+        display: initial;
+    }
+    #about{
+        margin-top: 700px;
+    }
+    .about-img img{
+        width: 40%;
+        float: right;
+        margin-right: 10px;
+    }
+    .abt-text h1{
+        font-family:inherit;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .abt-text p{
+        font-family: 'Roboto Mono';
+        font-size: 15px;
+    }
+}
