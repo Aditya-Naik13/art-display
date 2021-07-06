@@ -107,27 +107,30 @@ nav .toggle-collapse .toggle-icons{
     }
 }
 
-.main{
-    background-image: url(/Raise_Digital-ecom/main.jpg);
+.bg-img {
+    background-image: url(/art-display/main.jpg);
     position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 80vh;
     width: 100%;
-    border-radius: 50px;
-    margin-top: 25px;
+    margin-top: 5px;
     position:absolute;
+    
 
 }
 .main h1{
+    padding-top: 300px;
     text-align: center;
-    padding: 300px;
     font-size: 3em;
     font-family:'Roboto Mono',sans-serif;
     transition: 300ms;
-    justify-content: space-around;
+    color:white;
+    font-weight: bold;
+
     
 }
+
 .scroll img{
     width: 25px;
     top:80
