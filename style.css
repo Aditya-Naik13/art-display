@@ -1,6 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 *{padding: 0px;
     margin: 0px;
 
@@ -10,63 +11,102 @@ body{margin: 0px;
     background-color:black;
     font-family: 'Poppins',sans-serif;
 }
-.nav{
+nav{
     background-color: white;
-    z-index: 9;
-    border-radius: 50px;
-    display: flex;
     justify-content: space-between;
+    padding: 0.2rem;
+    z-index: 9;
+    position: relative;
+    min-height: 15vh;
+    height: 0rem;
+    overflow-y:hidden;
+    transition:all 1s ease ;
 
 }
-.nav-top{
- margin-top: 5px;
- margin-left: 5px;
- margin-right:5px ;  
-   
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
+nav .nav-brand{
+    display: flex;
+}
+nav .nav-items{
+    list-style-type: none;
+    margin: 0;
+    display:flex;
+    direction: row;
+    flex-wrap: wrap ;
+}
+nav .nav-items .nav-link{
+    padding-top: 25px;
+    padding-right: 25px;
+}
+  nav .nav-items .nav-link a{
+   padding:10px;
+   font-family: inherit;
+   font-size: 1.5em;
+   color: black;
+   font-weight: bold;
+   text-decoration: none;
+   transition: 300ms;
+     
+ 
+  } 
+  nav .nav-items .nav-link a:hover{
+      color: #ff0066;
+  }
 .logo{
     display: flex;
     justify-content: space-between;  
 }
-.logo h1{
-    padding-top:40px;
-    margin-left: 10px;
+.nav-brand h1{
+    font-family: inherit;
     font-weight: bold;
-    font-size:1.8em
+    padding-top: 25px;
+    padding-left: 5px;
 }
+
 .logo img{
-    width: 110px;
-   padding-left: 30px;
+    width: 100px;
+    height: 105px;
    padding-top:10px;
-   padding-bottom:15px;
+   padding-bottom:10px;
    float: left;
    
 }
-.nav-elements{
-width: 40%;
-float: right;
-padding-top: 40px;
-padding-bottom: 30px;
-margin-right: 40px;
-}
-.nav-elements a{
-text-decoration: none;
-padding-right: 30px ;
-float: right;
-color: black;
-font-weight: bold;
-font-family: inherit;
-font-size: 1.5em;
-justify-content: center;
-align-items: center;
-text-align: center;
-align-content: center;
-transition:300ms;
-}
-.nav-elements a:hover{
-    color: #ff0066;
+nav .toggle-collapse{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    cursor: pointer;
+    display: none;
     
 }
+nav .toggle-collapse .toggle-icons{
+    display: flex;
+    justify-content: flex-end;
+    padding:1.4rem 2rem;
+}
+nav .toggle-collapse .toggle-icons{
+    font-size:28px;
+}
+.collapse{
+    height: 30rem;
+}
+@media only screen and (max-width:800px){
+    nav .nav-items{
+        flex-direction: column !important;
+    }
+    nav{
+        flex-direction: column !important;
+        display: block !important;
+    }
+    nav .toggle-collapse{
+        display: initial;
+    }
+}
+
 .main{
     background-image: url(/Raise_Digital-ecom/main.jpg);
     position: center;
@@ -83,10 +123,10 @@ transition:300ms;
     text-align: center;
     padding: 300px;
     font-size: 3em;
-    font-family: inherit;
+    font-family:'Roboto Mono',sans-serif;
     transition: 300ms;
+    justify-content: space-around;
     
-  
 }
 .scroll img{
     width: 25px;
