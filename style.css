@@ -303,9 +303,12 @@ footer {
     .icons-links a{
         margin-right: 1.1em;
         margin-top: 0px;
-        margin-left: 15px;
+        margin-left: 12px;
         font-size:32px;
        
+    }
+    .icons-links{
+        margin-left: 10px;
     }
     #works{
         margin-top: 80px;
