@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 *{padding: 0px;
     margin: 0px;
 
@@ -200,7 +200,7 @@ padding: 20px;
 .footer-container h6{
     font-family:'Roboto Mono',sans-serif ;
     font-size: 12px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 .footer-container a{
     text-decoration: none;
@@ -277,12 +277,12 @@ footer {
         margin-top: 0px;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 80vh;
+        height: 85vh;
         width: 100%;
         position:absolute;
     }
     #about{
-        margin-top: 580px;
+        margin-top: 590px;
         padding-top: 100px;
     }
     .about-img img{
@@ -302,7 +302,7 @@ footer {
     .icons-links a{
         margin-right: 1.1em;
         margin-top: 0px;
-        margin-left: 15px;
+        margin-left: 12px;
         font-size:32px;
        
     }
