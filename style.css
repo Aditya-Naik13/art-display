@@ -195,6 +195,14 @@ padding: 20px;
 }
 .footer-container h5{
     font-family: inherit;
+    color: white;
+    font-weight: bold;
+    background-color: #ff0066;
+    border-radius: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
     font-size: 15px;
 }
 .footer-container h6{
@@ -205,6 +213,9 @@ padding: 20px;
 .footer-container a{
     text-decoration: none;
     color:#ff0066 ;
+}
+.footer-container a:hover{
+    color: black;
 }
 footer {
     text-align: center;
