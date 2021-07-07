@@ -98,7 +98,7 @@ nav .toggle-collapse .toggle-icons{
 
 
 .bg-img {
-    background-image: url(/art-display/main.jpg);
+    background-image: url(main.jpg);
     position: center;
     background-size: cover;
     background-repeat: no-repeat;
