@@ -9,7 +9,14 @@
 body{margin: 0px;
     padding: 0px;
     background-color:black;
+    
     font-family: 'Poppins',sans-serif;
+}
+.center{
+    font-weight: bold;
+    font-size: 3em;
+    font-family: inherit;
+    text-align: center;
 }
 nav{
     background-color: white;
@@ -123,6 +130,7 @@ nav .toggle-collapse .toggle-icons{
 #about{
     margin-top: 600px;
     padding-top: 150px;
+    padding-bottom: 80px;
     background-image: url(double-bubble-outline.png);
    
 }
@@ -166,13 +174,64 @@ padding: 20px;
 .icons-links a:hover{
     color:black;
 }
+#works{
+    margin-top: 300px;
+    margin-bottom: 350px;
+}
 
 
 
 
+
+
+
+
+
+
+
+.footer-container{
+  text-align: center;
+  padding: 0px;
+}
+.footer-container h5{
+    font-family: inherit;
+    font-size: 15px;
+}
+.footer-container h6{
+    font-family:'Roboto Mono',sans-serif ;
+    font-size: 12px;
+}
+.footer-container a{
+    text-decoration: none;
+    color:#ff0066 ;
+}
+footer {
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
+.icons-footer{
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.icons-footer a{
+    margin-right:10px;
+    
+}
+.icons-footer a:hover{
+    color: black;
+}
 
 
 @media only screen and (max-width:800px){
+    .center{
+        font-weight: bold;
+        font-size: 30px;
+        font-family: inherit;
+        text-align: center;
+    }
 
     .nav-brand h1{
         font-family: inherit;
@@ -244,6 +303,10 @@ padding: 20px;
         margin-left: 20px;
         font-size:32px;
        
+    }
+    #works{
+        margin-top: 80px;
+        margin-bottom: 350px;
     }
 
         
