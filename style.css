@@ -90,7 +90,7 @@ nav .toggle-collapse .toggle-icons{
     padding-top: 30px;
 }
 nav .toggle-collapse .toggle-icons{
-    font-size:28px;
+    font-size:25px;
 }
 .collapse{
     height: 30rem;
@@ -178,6 +178,7 @@ padding: 20px;
         font-weight: bold;
         padding-top: 35px;
         padding-left: 5px;
+        font-size: 20px;
     }
     nav .nav-items{
         flex-direction: column !important;
@@ -188,6 +189,12 @@ padding: 20px;
     }
     nav .toggle-collapse{
         display: initial;
+    }
+    .logo img{
+        width: 70px;
+        height: 80px;
+       padding-top:10px;
+       padding-bottom:10px;
     }
     #about{
         margin-top: 700px;
