@@ -39,7 +39,7 @@ nav .nav-items{
     flex-wrap: wrap ;
 }
 nav .nav-items .nav-link{
-    padding-top: 25px;
+    padding-top: 35px;
     padding-right: 25px;
 }
   nav .nav-items .nav-link a{
@@ -149,6 +149,22 @@ padding: 20px;
     font-family: 'Roboto Mono';
     font-size: 22px;
 }
+.icons-links{
+    display: flex;
+    justify-content:left;
+    padding-left: 0px;
+   
+
+}
+.icons-links a{
+    margin-right: 1.2em;
+    margin-left: 20px;
+    font-size:45px;
+    color: black;
+}
+.icons-links a:hover{
+    color: #ff0066;
+}
 
 
 
@@ -190,4 +206,14 @@ padding: 20px;
         font-family: 'Roboto Mono';
         font-size: 15px;
     }
+    .icons-links a{
+        margin-right: 1.1em;
+        margin-top: 0px;
+        margin-left: 20px;
+        font-size:32px;
+        color: black;
+    }
+
+        
+        
 }
