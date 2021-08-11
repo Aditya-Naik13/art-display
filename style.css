@@ -219,7 +219,10 @@ padding: 20px;
     display: flex;
     justify-content: space-around;
 }
-
+.wrk-text{
+    margin-top: 150px;
+    text-align: center;
+}
 
 
 
@@ -434,6 +437,13 @@ footer {
     .row6 img{
         width: 80%;
         padding-bottom: 50px;
+    }
+    .wrk-text{
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: center;
+        
     }
         
         
