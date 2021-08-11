@@ -215,6 +215,17 @@ padding: 20px;
 .row6{
     display: flex;
     justify-content: space-around;
+    margin-bottom:100px;
+}
+.row7{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:100px;
+}
+.row8{
+    display: flex;
+    justify-content: space-around;
+    
 }
 .wrk-text{
     margin-top: 150px;
@@ -373,6 +384,7 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content:space-around;
+        margin-bottom:10px;
         
     }
     .row1 img{
@@ -384,6 +396,7 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content:space-around;
+        margin-bottom:10px;
         
     }
     .row2 img{
@@ -395,6 +408,7 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content:space-around;
+        margin-bottom:10px;
         
     }
     .row3 img{
@@ -406,6 +420,7 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content:space-around;
+        margin-bottom:10px;
         
     }
     .row4 img{
@@ -417,6 +432,7 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content:space-around;
+        margin-bottom:10px;
         
     }
     .row5 img{
@@ -428,12 +444,41 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content:space-around;
+        margin-bottom:10px;
         
     }
     .row6 img{
         width:90%;
         padding-bottom: 50px;
     }
+    .row7{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-around;
+        margin-bottom:10px;
+        
+    }
+    .row7 img{
+        width:90%;
+        padding-bottom: 50px;
+    }
+    .row8{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-around;
+        margin-bottom:10px;
+        
+    }
+    .row8 img{
+        width:90%;
+        padding-bottom: 50px;
+    }
+    
+
+    
+
     .wrk-text{
         margin-top: 50px;
         margin-left: 50px;
