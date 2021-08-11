@@ -176,8 +176,23 @@ padding: 20px;
 .icons-links a:hover{
     color:black;
 }
+.abt-art{
+    margin-top: 250px;
+    padding: 30px;
+    text-align: center;
+    }
+.abt-art h1{
+        font-family:inherit;
+        font-weight: bold;
+        font-size: 50px;
+    }
+.abt-art p{
+    margin-top: 30px;
+        font-family: 'Roboto Mono';
+        font-size: 22px;
+    }
 #works{
-    margin-top: 300px;
+    margin-top: 200px;
     margin-bottom: 350px;
 }
 .art-cards{
@@ -361,6 +376,19 @@ footer {
         font-size: 30px;
     }
     .abt-text p{
+        font-family: 'Roboto Mono';
+        font-size: 15px;
+    }
+    .abt-art{
+        margin-top:100px;
+        text-align: center;
+    }
+    .abt-art h1{
+        font-family:inherit;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .abt-art p{
         font-family: 'Roboto Mono';
         font-size: 15px;
     }
