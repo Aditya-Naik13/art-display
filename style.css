@@ -377,7 +377,7 @@ footer {
     }
     .abt-text p{
         font-family: 'Roboto Mono';
-        font-size: 20px;
+        font-size: 15px;
     }
     .abt-art{
         margin-top:100px;
@@ -390,7 +390,7 @@ footer {
     }
     .abt-art p{
         font-family: 'Roboto Mono';
-        font-size: 20px;
+        font-size: 15px;
     }
     .icons-links a{
         margin-right: 1.1em;
@@ -403,7 +403,7 @@ footer {
         margin-left: 10px;
     }
     #works{
-        margin-top: 80px;
+        margin-top: 70px;
     }
     .art-cards img{
         margin:10px;
