@@ -4,13 +4,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 *{padding: 0px;
     margin: 0px;
+    font-family: 'Poppins',sans-serif;
 
 }
 body{margin: 0px;
     padding: 0px;
     background-color:black;
     
-    font-family: 'Poppins',sans-serif;
+    
 }
 .center{
     font-weight: bold;
@@ -398,6 +399,39 @@ footer {
         
     }
     .row3 img{
+        width: 80%;
+        padding-bottom: 50px;
+    }
+    .row4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-around;
+        
+    }
+    .row4 img{
+        width: 80%;
+        padding-bottom: 50px;
+    }
+    .row5{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-around;
+        
+    }
+    .row5 img{
+        width: 80%;
+        padding-bottom: 50px;
+    }
+    .row6{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-around;
+        
+    }
+    .row6 img{
         width: 80%;
         padding-bottom: 50px;
     }
