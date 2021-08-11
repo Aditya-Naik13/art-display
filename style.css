@@ -366,7 +366,6 @@ footer {
         margin-top: 80px;
     }
     .art-cards img{
-        width: 50%;
         margin:10px;
     }
     .row1{
@@ -377,7 +376,7 @@ footer {
         
     }
     .row1 img{
-        width: 80%;
+        width:90%;
         padding-bottom: 50px;
     }
     .row2{
@@ -388,7 +387,7 @@ footer {
         
     }
     .row2 img{
-        width: 80%;
+        width:90%;
         padding-bottom: 50px;
     }
     .row3{
@@ -399,7 +398,7 @@ footer {
         
     }
     .row3 img{
-        width: 100%;
+        width:90%;
         padding-bottom: 50px;
     }
     .row4{
@@ -410,7 +409,7 @@ footer {
         
     }
     .row4 img{
-        width: 100%;
+        width:90%;
         padding-bottom: 50px;
     }
     .row5{
@@ -421,7 +420,7 @@ footer {
         
     }
     .row5 img{
-        width: 80%;
+        width:90%;
         padding-bottom: 50px;
     }
     .row6{
@@ -432,7 +431,7 @@ footer {
         
     }
     .row6 img{
-        width: 80%;
+        width:90%;
         padding-bottom: 50px;
     }
     .wrk-text{
