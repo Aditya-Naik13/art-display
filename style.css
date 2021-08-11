@@ -113,6 +113,7 @@ nav .toggle-collapse .toggle-icons{
     height: 80vh;
     width: 100%;
     position:absolute;
+    transition: 300ms;
     
 
 }
